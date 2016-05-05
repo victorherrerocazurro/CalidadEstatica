@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.3.5" timestamp="2016-05-05T12:02:26.312">
+<file name="D:\workspace\00-CalidadEstaticaJenkins\src\main\java\com\curso\ecosistema\Bar.java">
+<violation beginline="10" endline="10" begincolumn="25" endcolumn="42" rule="ReturnFromFinallyBlock" ruleset="Basic" package="com.curso.ecosistema" class="Bar" method="foo" externalInfoUrl="https://pmd.github.io/pmd-5.3.5/pmd-java/rules/java/basic.html#ReturnFromFinallyBlock" priority="3">
+Avoid returning from a finally block
+</violation>
+</file>
+</pmd>

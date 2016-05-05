@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+   <duplication lines="23" tokens="122">
+      <file line="3"
+            path="D:\workspace\00-CalidadEstaticaJenkins\src\main\java\com\curso\ecosistema\Calculadora.java"/>
+      <file line="3"
+            path="D:\workspace\00-CalidadEstaticaJenkins\src\main\java\com\curso\ecosistema\Calculadora2.java"/>
+      <codefragment><![CDATA[public class Calculadora {
+	public int sumar(int a, int b) {
+		try {
+			if (a < 0 && b > 0) {
+				throw new Exception();
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+		System.out.println("------");
+		System.out.println("------");
+		System.out.println("------");
+		System.out.println("------");
+		System.out.println("-- en la calculadora --");
+		System.out.println("------");
+		System.out.println("------");
+		System.out.println("------");
+		System.out.println("------");
+		
+		return a + b;
+	}
+}]]></codefragment>
+   </duplication>
+</pmd-cpd>
